@@ -1,0 +1,54 @@
+{
+	"vertex" : [ 
+		{ "id" : 1, "width" : 0.2 , "height" : 0.2,  "circleDiameter" : 18, "page_ref" : "mindlabs", "text" : [ "MINDLABS IN", "A MINUTE"] },
+		{ "id" : 2, "width" : 0.3 , "height" : 0.18, "circleDiameter" : 14, "page_ref" : "mindlabs", "text" : [ "WHERE TO", "FIND US"] },
+		{ "id" : 3, "width" : 0.65, "height" : 0.18, "circleDiameter" : 20, "page_ref" : "mindlabs", "text" : [ "NATURAL LANGUAGE", " TECHNOLOGIES LAB"] },
+		{ "id" : 4, "width" : 0.85, "height" : 0.1,  "circleDiameter" : 20, "page_ref" : "", "text" : [ ] },
+		{ "id" : 5, "width" : 0.65, "height" : 0.4 , "circleDiameter" : 12, "page_ref" : "mindlabs", "text" : [ "ROBOTICS &", "AVATARS LAB"] },
+		{ "id" : 7, "width" : 0.81, "height" : 0.44, "circleDiameter" : 15, "page_ref" : "", "text" : [ ] },
+		{ "id" : 6, "width" : 0.31, "height" : 0.42, "circleDiameter" : 13, "page_ref" : "", "text" : [ ] },
+		{ "id" : 8, "width" : 0.3 , "height" : 0.6,  "circleDiameter" : 13, "page_ref" : "", "text" : [ ] },
+		{ "id" : 9, "width" : 0.12, "height" : 0.7,  "circleDiameter" : 15, "page_ref" : "mindlabs", "text" : [ "SERIOUS", "GAMES LAB"] },
+		{ "id" :10, "width" : 0.43, "height" : 0.77 , "circleDiameter" : 17, "page_ref" : "", "text" : [ ] },
+		{ "id" :11, "width" : 0.6 , "height" : 0.72, "circleDiameter" : 10, "page_ref" : "", "text" : [ ] },
+		{ "id" :12, "width" : 0.85, "height" : 0.79, "circleDiameter" : 12, "page_ref" : "mindlabs", "text" : [ "CONTACT"] },
+		{ "id" :13, "width" : 0.4 , "height" : 0.62, "circleDiameter" : 22, "page_ref" : "mindlabs", "text" : [ "VIRTUAL & MIXED", "    REALITY LAB"] }
+	],
+	"links" : [
+		{ "v1" : 1, "v2" : 2, "style" : 2},
+		{ "v1" : 2, "v2" : 3, "style" : 0},
+		{ "v1" : 3, "v2" : 4, "style" : 1},
+		{ "v1" : 3, "v2" : 5, "style" : 0},
+		{ "v1" : 3, "v2" : 7, "style" : 0},
+		{ "v1" : 4, "v2" : 5, "style" : 0},
+		{ "v1" : 5, "v2" : 6, "style" : 0},
+		{ "v1" : 5, "v2" : 7, "style" : 2},
+		{ "v1" : 1, "v2" : 8, "style" : 2},
+		{ "v1" : 2, "v2" : 9, "style" : 0},
+		{ "v1" : 6, "v2" :13, "style" : 0},
+		{ "v1" : 2, "v2" : 9, "style" : 0},
+		{ "v1" : 9, "v2" :10, "style" : 2},
+		{ "v1" : 3, "v2" :11, "style" : 0},
+		{ "v1" : 7, "v2" :11, "style" : 2},
+		{ "v1" : 7, "v2" :12, "style" : 0},
+		{ "v1" : 10,"v2" :11, "style" : 1},
+		{ "v1" : 11,"v2" :12, "style" : 0},
+		{ "v1" : 2, "v2" :11, "style" : 2},
+		{ "v1" : 8, "v2" :13, "style" : 0},
+		{ "v1" : 9, "v2" :13, "style" : 2},
+		{ "v1" : 10,"v2" :13, "style" : 0},
+		{ "v1" : 11,"v2" :13, "style" : 0}
+	],
+	"logos" : [
+		{ "targetX" : 0.2, "targetY" : 0.9, "url" : "", "logo" : "gameente_logo"},
+		{ "targetX" : 0.4, "targetY" : 0.9, "url" : "", "logo" : "fontys_logo" },
+		{ "targetX" : 0.6, "targetY" : 0.9, "url" : "", "logo" : "roc_logo" },
+		{ "targetX" : 0.8, "targetY" : 0.9, "url" : "", "logo" : "uvtpgn_logo" }
+	],
+	"mobile" : {
+		"top_left"   : { "text": ["SERIOUS","GAMES LAB"], "url" :"" },
+		"top_right"    : { "text": ["ROBOTICS &","AVATARS LAB"], "url" :"" },
+		"bottom_left": { "text": ["VIRTUAL & MIXED","REALITY LAB"], "url" :"" },
+		"bottom_right" : { "text": ["NATURAL LANGUAGE","TECHNOLOGIES LAB"], "url" :"" }
+	}
+}

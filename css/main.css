@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+
+@font-face {
+    font-family: SevenSegment;
+    src: url(sevensegments.ttf);
+}
+
+
+canvas {
+    background-color: "black";
+}
+
+
+.UItext{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.UIbutton{
+    border: 0;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.informationPanel{
+	background: #EEEEEE;
+	position: absolute;
+}
+
+.mindlabs_title{
+	margin-top: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.mindlabs_paragraph{
+	margin-left: 5%;
+	margin-right: 5%;
+}
